@@ -1,0 +1,54 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1976d2;
+  color: white;
+  padding: 15px 30px;
+}
+
+/* LOGO */
+.logo {
+  margin: 0;
+}
+
+/* LINKS CONTAINER */
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* LINKS */
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* ACTIVE LINK */
+.nav-link.active {
+  border-bottom: 2px solid white;
+  padding-bottom: 3px;
+}
+
+/* LOGOUT BUTTON */
+.logout-btn {
+  background: white;
+  color: #1976d2;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  background: #f0f0f0;
+}
+
+/* OPTIONAL: STICKY NAVBAR */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
