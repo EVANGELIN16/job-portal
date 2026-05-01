@@ -101,3 +101,32 @@
   margin-top: auto;
   gap: 7px; /* space between buttons */
 }
+/* FILTERS */
+.filters {
+  display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    width: 50%;
+    flex-direction: column;
+    margin-top: 20px;
+
+}
+
+.filters input,
+.filters select {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.filters button {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background: #1976d2;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.filters button:hover {
+  background: #f5f5f5;
+}
